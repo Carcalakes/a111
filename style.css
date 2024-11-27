@@ -1,0 +1,117 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2d2d2d;  /* Dark background */
+    color: #fff;  /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background-color: #33b8b7;  /* Bawsaq greenish color */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #28a2a0;  /* Darker shade of green */
+}
+
+/* Inputs */
+input {
+    padding: 12px 20px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #444;  /* Slightly lighter background */
+    color: #fff;
+    width: 250px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #33b8b7;  /* Green border when focused */
+}
+
+/* Links */
+a {
+    color: #33b8b7;  /* Bawsaq green color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #28a2a0;  /* Darker green on hover */
+}
+
+/* Header styling */
+h1 {
+    font-size: 36px;
+    color: #33b8b7;  /* Bright green for title */
+    margin-bottom: 20px;
+}
+
+/* Stock Item (Marketplace) */
+.stock-item {
+    display: inline-block;
+    width: 30%;
+    background-color: #333;  /* Darker background for stock cards */
+    margin: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.stock-item h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.stock-item p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #b0b0b0;  /* Lighter gray text for description */
+}
+
+.arrow {
+    font-size: 24px;
+}
+
+.buy-sell-buttons {
+    margin-top: 20px;
+}
+
+/* Market Page */
+#stocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Chart Styles */
+.chart-container {
+    margin-top: 40px;
+}
+
+canvas {
+    max-width: 100%;
+    height: 300px;
+}
